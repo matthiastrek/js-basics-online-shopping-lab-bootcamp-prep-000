@@ -77,7 +77,9 @@ function removeFromCart(item) {
     if (cart[i].hasOwnProperty(item)) {
       itemInCart = true
       cart.splice(i, 1)
-    } else 
+    } else {
+      
+    }
   }
 }
 
