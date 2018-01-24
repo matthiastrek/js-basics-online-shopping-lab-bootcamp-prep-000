@@ -75,7 +75,8 @@ function removeFromCart(item) {
   var itemInCart = false
   for (var i = 0; i < cart.length; i++){
     if (cart[i].hasOwnProperty(item)) {
-      return 'That item is not in your cart.'
+      itemInCart = true
+      itemInCar.splice
     } else 
   }
 }
