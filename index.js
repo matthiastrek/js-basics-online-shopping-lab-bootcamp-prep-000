@@ -72,6 +72,7 @@ function total() {
 }
 
 function removeFromCart(item) {
+  var itemInCart = false
   
 }
 
