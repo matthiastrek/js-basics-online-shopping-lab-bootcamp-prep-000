@@ -59,15 +59,14 @@ function viewCart() {
   }
 }
 
-addToCart('peas')
-addToCart('carrots')
-addToCart('onions')
-
 viewCart()
 
 function total() {
+  let t = 0
   for (var i = 0; i < cart.length; i++){
-    
+    for (var item in cart[i]){
+      t += cart[item][i]
+    }
   }
 }
 
