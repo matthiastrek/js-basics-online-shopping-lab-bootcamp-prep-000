@@ -72,8 +72,11 @@ function total() {
 }
 
 function removeFromCart(item) {
+  var itemObject = {}
   for (var i = 0; i < cart.length; i++){
-    
+    if itemObject[item] = false{
+      return 'That item is not in your cart.'
+    } else 
   }
 }
 
