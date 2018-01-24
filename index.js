@@ -78,8 +78,8 @@ function removeFromCart(item) {
       itemInCart = true
       cart.splice(i, 1)
     } else {
-      console.log('That item is not in your cart.')
-    }
+        console.log('That item is not in your cart.')
+    }   return cart
   }
 }
 
