@@ -72,8 +72,7 @@ function total() {
 }
 
 function removeFromCart(item) {
-  var itemInCart = false
-  
+  for (var i = 0; )
 }
 
 function placeOrder(cardNumber) {
