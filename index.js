@@ -18,26 +18,6 @@ function addToCart(item) {
   return cart
 }
 
-var cart = [];
-
-function getCart() {
- return cart;
-}
-
-function setCart(c) {
-  cart = c;
-  return cart;
-}
-
-function addToCart(item) {
-  var price = Math.floor(Math.random() * 100) + 1;
-  var itemObject = {}
-  itemObject[item] = price
-  cart.push(itemObject)
-  console.log(item + " has been added to your cart.")
-  return cart
-}
-
 function viewCart() {
   if (cart.length === 0) {
     console.log("Your shopping cart is empty.")
