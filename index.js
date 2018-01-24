@@ -59,8 +59,6 @@ function viewCart() {
   }
 }
 
-viewCart()
-
 function total() {
   let t = 0
   for (var i = 0; i < cart.length; i++){
