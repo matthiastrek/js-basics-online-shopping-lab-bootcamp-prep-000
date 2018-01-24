@@ -56,7 +56,10 @@ function removeFromCart(item) {
       itemInCart = true
       cart.splice(i, 1)
     }
-  }   
+  }
+  if (!itemInCart){
+    console.log('That item is not in your cart.')
+  }
   return cart
 }
 
